@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# In Love - Đếm ngày iu
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Thumbnail](https://myrepublica.nagariknetwork.com/uploads/media/2018/December/falling-in-love.jpg)
 
-## Available Scripts
+Đây là pet project được tạo ra để đếm ngày yêu nhau của bản thân và người ấy. Mục đích chính là sử dụng NextUI.
 
-In the project directory, you can run:
+## Mục lục
 
-### `yarn start`
+- [Giới thiệu](#giới-thiệu)
+- [Cài đặt](#cài-đặt)
+- [Cách sử dụng](#cách-sử-dụng)
+- [Thư mục dự án](#thư-mục-dự-án)
+- [Các tính năng](#các-tính-năng)
+- [Cải thiện và Sửa lỗi](#cải-thiện-và-sửa-lỗi)
+- [Đóng góp](#đóng-góp)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Giới thiệu
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Project In Love để đếm ngày yêu nhau.
 
-### `yarn test`
+## Cài đặt
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Yêu cầu**:
+   - Node.js >= 14.x
+   - NPM hoặc Yarn
 
-### `yarn build`
+2. **Clone dự án**:
+```bash
+git clone https://github.com/yunkhngn/in-love.git
+cd in-love
+```
+3. **Cài đặt các package**
+```bash
+npm install
+# hoặc sử dụng yarn
+yarn install
+```
+4. **Chạy web**
+```bash
+npm run start
+# hoặc sử dụng yarn
+yarn start
+```
+5. **Build ứng dụng**
+```bash
+npm run build
+# hoặc sử dụng yarn
+yarn build
+```
+## Cách sử dụng
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Chạy development: Truy cập http://localhost:3000.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Deloy: Sử dụng các nền tảng như Vercel, Netlify, hoặc các dịch vụ cloud khác để triển khai website.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Thư mục dự án
+> Dùng cho mục đích bảo trì.
 
-### `yarn eject`
+- `/components/lib`: Chứa content của dự án
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- `/components/content`: Chứa các element content
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- `/components/styles`: Chứa các file css
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- `App.js`: File app chính của dự án
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- `/public`: Chứa các file static và ảnh
 
-## Learn More
+## Các tính năng
+> NOTE: Các feature đang và sẽ được xây dựng.
+- [ ] Đếm ngày yêu
+- [ ] Check sinh nhật đối phương
+- [ ] Đến ngày anniversary thì thông báo
+- [ ] Gửi tin nhắn chúc mừng qua mail
+- [ ] Responsive cho các thiết bị xs và md
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Cải thiện và sửa lỗi
+> NOTE: Updating thêm
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Hiện chưa có lỗi gì
 
-### Code Splitting
+## Đóng góp
+@yunkhngn
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
