@@ -22,8 +22,7 @@ html{
     height: 100vh;
     font-size: calc(10px + 2vmin);
     text-align: center;
-    margin-top: 5em;
-    margin-bottom: 2em;
+    margin: 5em auto 2em;
 }
 
 .face{
@@ -55,5 +54,11 @@ padding: 20px;
 
 /* xs device  */
 @media (max-width: 576px) {
-    
+    .app{
+        width: 90%;
+    }
+    .face{
+        width: 120px;
+        height: 120px;
+    }
 }
