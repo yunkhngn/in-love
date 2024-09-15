@@ -11,6 +11,7 @@ html{
     font-family: 'Roboto', sans-serif;
     background-color: var(--background);
     color: var(--dark);
+    scroll-behavior: smooth;
 }
 
 .app{
@@ -21,7 +22,8 @@ html{
     height: 100vh;
     font-size: calc(10px + 2vmin);
     text-align: center;
-    margin: auto;
+    margin-top: 5em;
+    margin-bottom: 2em;
 }
 
 .face{
@@ -41,6 +43,14 @@ html{
     font-size: 1.5rem;
     margin: 0;
     text-align: left;
+}
+
+.avatar{
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 20px;
 }
 
 /* xs device  */

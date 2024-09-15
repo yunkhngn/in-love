@@ -51,11 +51,11 @@ const Counter = () => {
       width: { xs: '90%', md: '750px' },
       padding: { xs: '20px', md: '30px' },
       backgroundColor: '#ffffff60',
+      marginBottom: '20px',
     }}
    >
     <CardContent>
     <Typography 
-      gutterBottom
       variant="h4"
         sx={{
           color: '#293462',
