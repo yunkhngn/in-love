@@ -1,8 +1,8 @@
 const data = {
     date: {
-        day: '31',
-        month: '7',
-        year: '2024'
+        day: 30,
+        month: 7,
+        year: 2024
     },
     boy: {
         name: 'Khoa Nguyen',

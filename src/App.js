@@ -1,10 +1,12 @@
 import './components/styles/App.css';
+import {Contain} from './components/template'
+import {Counter} from './components/content'
 
 function App() {
   return (
-    <div className="App">
-        Chưa làm gì cả
-    </div>
+    <Contain>
+      <Counter/>
+    </Contain>
   );
 }
 

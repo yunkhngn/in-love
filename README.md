@@ -2,7 +2,7 @@
 
 ![Thumbnail](https://myrepublica.nagariknetwork.com/uploads/media/2018/December/falling-in-love.jpg)
 
-Đây là pet project được tạo ra để đếm ngày yêu nhau của bản thân và người ấy. Mục đích chính là sử dụng NextUI.
+Đây là pet project được tạo ra để đếm ngày yêu nhau của bản thân và người ấy. Mục đích chính là sử dụng MUI.
 
 ## Mục lục
 
@@ -21,6 +21,7 @@ Project In Love để đếm ngày yêu nhau.
 ## Cài đặt
 
 1. **Yêu cầu**:
+
    - Node.js >= 14.x
    - NPM hoặc Yarn
 
