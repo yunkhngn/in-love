@@ -6,7 +6,11 @@ function App() {
   return (
     <Contain>
       <Counter/>
-      <Lover/>
+      <p
+      className="footer"
+      >
+        Created by <a href="github.com/yunkhngn">yunkhngn</a> with ❤️
+      </p>
     </Contain>
   );
 }

@@ -9,7 +9,7 @@ const Lover = () => {
     <Card
     sx={{
       display: 'flex',
-      justifyContent: 'space-between',
+      justifyContent: 'space-around',
       alignItems: 'center',
       borderRadius: '20px',
       boxShadow: 'rgba(149, 157, 165, 0.2) 0px 8px 24px',

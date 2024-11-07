@@ -1,4 +1,5 @@
 import React from 'react'
+import { Typography } from '@mui/material'
 
 const Avatar = ({lover}) => {
   console.log(lover)
@@ -6,10 +7,19 @@ const Avatar = ({lover}) => {
     <div
     className='avatar'
     >
-      <img src={lover.avatar} alt={lover.name} style={{width: '100px', height: '100px', borderRadius: '50%'}}/>
-      <p>{lover.name}</p>
-      <p>{lover.dob}</p>
-      <p>{lover.zodiac}</p>
+      <img className='logo' src={lover.avatar} alt={lover.name} />
+      <Typography variant="h5"
+      mt={2}
+      fontWeight={500}
+      >
+        {lover.name}
+      </Typography>
+      <Typography variant="h5"
+      mt={2}
+      fontWeight={500}
+      >
+        {lover.dob}
+      </Typography>
     </div>
   )
 }

@@ -62,7 +62,7 @@ const Counter = () => {
           fontWeight: 'bold',
         }}
       >
-        Đếm ngày yêu nhau
+        Đếm ngày yêu
       </Typography>
     </CardContent>
     <CardContent
